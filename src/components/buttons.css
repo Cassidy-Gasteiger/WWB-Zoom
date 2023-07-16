@@ -19,7 +19,7 @@
     cursor: pointer;
     font-size: 16px;
     height: 100px;
-      width: 150px;
+    width: 150px;
     font-weight: bold;
   }
 
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 450px;
+    margin-left: 350px;
     height: 50%;
 }
 
