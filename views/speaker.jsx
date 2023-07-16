@@ -19,6 +19,7 @@ export default function SpeakersView(props) {
           <dd>{result.alternatives[0].transcript}</dd>
         </div>
       ))).reduce((a, b) => a.concat(b), []); // the reduce() call flattens the array
+      console.log('HIII', results)
     return (
       <dialog className="speaker-labels">
         {results}

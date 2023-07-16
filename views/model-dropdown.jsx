@@ -36,8 +36,8 @@ export class ModelDropdown extends Component {
   }
   */
 
-  fetchModels(token) {
-    SpeechToText.getModels({ token }).then(models => this.setState({ models }))
+  fetchModels(accessToken) {
+    SpeechToText.getModels({ accessToken }).then(models => this.setState({ models }))
       .catch(err => console.log('error loading models', err));
   }
 
@@ -79,7 +79,7 @@ export class ModelDropdown extends Component {
 
 ModelDropdown.propTypes = {
   model: PropTypes.string.isRequired,
-  token: PropTypes.string,
+  accessToken: PropTypes.string,
   onChange: PropTypes.func,
 };
 
