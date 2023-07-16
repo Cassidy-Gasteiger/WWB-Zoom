@@ -1,0 +1,6 @@
+---
+applications:
+- name: tranzlate-rem-yang
+  path: .
+  command: npm start
+  memory: 512M
