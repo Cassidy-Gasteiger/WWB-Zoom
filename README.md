@@ -1,2 +1,2 @@
 # WWB-Zoom
-Test WWB Zoom App
+A plugin to enhance network connectivity during the digital events
